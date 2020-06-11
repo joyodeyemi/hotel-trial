@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact us</title>
-    <link rel="stylesheet" href="hotel.csss">
+    <link rel="stylesheet" href="hotel.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
 </head>
@@ -21,24 +21,34 @@
         </header>
     <!-- </header>-->
        <!-- <section id="white-box" class="grid">-->
-           <div id="white-box" class="grid">
-            <div class="details">
-                <h2>Address</h2>
-                <p><i class="fa fa-map-marker"></i>6, Kingsway Road, Ikoyi,<br>Lagos.<br></p>
-                <h2><br>Phone</h2>
-                <p><i class="fa fa-phone"></i>+234-567-890-456<br>+234-098-765-432
-                <br></p>
-                <h2><br>Email</h2>
-                <p><i class="fa fa-envelope-o"></i>Enquiries@romaniahotels.com</p>
+           <div id="white-box" class="gride"> <!--WHITE-box-->
+            <div class="containeer">
+                <div class="container-box">
+                    <!--<div class="details">-->
+                        <div class="left"><h2>Address</h2>
+                            <p><i class="fa fa-map-marker"></i>6, Kingsway Road, Ikoyi,<br>Lagos.<br></p>
+                            <h2><br>Phone</h2>
+                            <p><i class="fa fa-phone"></i>+234-567-890-456<br>+234-098-765-432
+                            <br></p>
+                            <h2><br>Email</h2>
+                            <p><i class="fa fa-envelope-o"></i>Enquiries@romaniahotels.com</p></div>
+                        
+                    <!--</div>-->
+    
+                    <!-- <div class="DAM-box">-->
+                        <div class="right">
+                           <h3>Drop a message.</h3>
+                           <input type="text" class="input-box" placeholder="Name"/>
+                           <input type="text" class="input-box" placeholder="Email"/>
+                           <input type="text" class="input-box" placeholder="Phone Number">
+                           <textarea name="text" class="input-box" placeholder="Message" rows="6"></textarea> </textarea>
+                           <button type="submit" class="submit-btn" value="send">send</button>
+                        </div>
+                          
+                    <!--</div>-->
+            
+                </div>
             </div>
-             <div class="DAM-box">
-                    <h3>Drop a message.</h3>
-                    <input type="text" class="input-box" placeholder="Name"/>
-                    <input type="text" class="input-box" placeholder="Email"/>
-                    <input type="text" class="input-box" placeholder="Phone Number">
-                    <textarea name="text" class="input-box" placeholder="Message" rows="6"></textarea> </textarea>
-                    <input type="submit" class="submit-btn" value="Send">
-             </div>
            </div>
          <!-- </section>-->
         <!-- <footer>
@@ -48,7 +58,7 @@
                     <img src ="footer img.jpg">
                     <h4>Begin your amazing experience here</h4>
                     <p>sed ut perspiclatis unde omnis iste natus error sit <br>voluptatem accusantium</p>
-                    <input type="submit" class="submit-btn-btn" value="Book Now">
+                    <button type="submit" class="submit-btn-btn" value="Book Now">Book Now</button>
 
                 </div>
                 </footer>
