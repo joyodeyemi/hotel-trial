@@ -33,26 +33,26 @@ body{
 
 .CU{
     text-align: center;
-    color: #E5E5E5;
+    color: #2F3239;
     letter-spacing: 0.1rem; 
      top: 150px;
 
 }
 .p,.h1{ 
     letter-spacing: 0.1rem;
+    color: #2F3239;
 
 }
 #white-box{
     width: 100%;
-    background: black ;
+    background: white;
     box-shadow: 0 2px 4px #E5E5E5;
 }
 .details{
 box-sizing: border-box;
-font-weight: 1.2rem;
-font-size: 1.1rem;
-letter-spacing: 0.1rem;
-background-color: yellow;
+font-weight: 1.1rem;
+font-size: 1rem;
+letter-spacing: 0.1rem
 }
 .DAM-box{
 background: white;
@@ -96,7 +96,9 @@ box-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
 }
 .end{
     text-align: center;
-    color: #E5E5E5;
+    
+    color: #2F3239;
+
     letter-spacing: 0.1rem;
     border-spacing: 100px;
     font-size: 1.5rem;
@@ -231,6 +233,7 @@ box-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
         grid-row: 1;
         text-align: center;
         position: relative;
+        color: #E5E5E5;
     }
    
     #white-box{
@@ -286,6 +289,7 @@ box-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
         position: relative;
         bottom: 0.1rem;
         top: 120px;
+        color: #E5E5E5;
     }
     .submit-btn-btn{
         margin-bottom: 68px;
